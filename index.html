@@ -16,6 +16,23 @@ function add() {
 </form>
 </body>
 </html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function change(thi) {
+            debugger;
+            thi.setAttribute("src", "https://2.bp.blogspot.com/-trO-yFceGVc/WJo4xZrvTSI/AAAAAAAAUCs/Y_NIA0vtlpEFzHKw2Ft-jzdkW2WgBzLGgCLcB/s1600/ok-emoji.png");
+            thi.innerHTML = "";
+            thi.outerHTML = thi.outerHTML.replace(/button/g, "img");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="change(this), add()">OUR BUTTON</button>
+</body>
+</html>
 <style>
 
     button {
