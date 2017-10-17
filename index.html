@@ -4,7 +4,7 @@
           change("https://2.bp.blogspot.com/-trO-yFceGVc/WJo4xZrvTSI/AAAAAAAAUCs/Y_NIA0vtlpEFzHKw2Ft-jzdkW2WgBzLGgCLcB/s1600/ok-emoji.png");
         
    }
-    function change(thi, url2) {
+    function change(thi) {
         if(num == 100){
             debugger;
             thi.setAttribute("src", "https://4.bp.blogspot.com/-xjLbvdPaPBo/WJn4xvGuOmI/AAAAAAAAT9M/v8yMC3d7rnYcQQWIdQiizVMehoZmgY99ACLcB/s1600/tearful-emoji.png");
@@ -25,6 +25,7 @@
        
    }
 function add() {
+    change();
     var num = document.getElementById("mynum").value;
     if(num == '') num = 0;
     document.getElementById("mynum").value = parseInt(num ,10) + 1;
