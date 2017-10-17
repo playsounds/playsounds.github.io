@@ -11,7 +11,10 @@ function add() {
 </head>
 <div id='txt'></div>
 <form action="" method="post">
-<input type="text" id='mynum'>
+   <div class="wrapper">
+    <input type="text" id='mynum'>
+</div>
+
 <input type="button" onclick="add()">
 </form>
 </body>
@@ -55,7 +58,14 @@ function add() {
     top: 50%;
 }
     
-    
+    .wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
 
 
 
