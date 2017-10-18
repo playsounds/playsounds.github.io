@@ -1,15 +1,15 @@
 <script type="text/javascript">
     var url = "https://2.bp.blogspot.com/-trO-yFceGVc/WJo4xZrvTSI/AAAAAAAAUCs/Y_NIA0vtlpEFzHKw2Ft-jzdkW2WgBzLGgCLcB/s1600/ok-emoji.png";
       function setup(){
-          change();
+          change(url);
         
    }
-    function change(thi) {
+    function change(thi, url2) {
         
             
         
             debugger;
-            thi.setAttribute("src", url);
+            thi.setAttribute("src", url2);
             thi.innerHTML = "";
             thi.outerHTML = thi.outerHTML.replace(/button/g, "img");
            
@@ -34,18 +34,10 @@ function add(thi) {
        
         
       
-       change();
+       change("https://lh3.googleusercontent.com/SVKzPc8BQlUkxqPY87sn2SGomGAxhkqRHSQDw53EhGGbth2tbebxMtiSmX7MQ3augQ=w300");
     }
     }
-    function change2(thi){
-    url = "https://lh3.googleusercontent.com/SVKzPc8BQlUkxqPY87sn2SGomGAxhkqRHSQDw53EhGGbth2tbebxMtiSmX7MQ3augQ=w300"
-        debugger;
-            thi.setAttribute("src", "");
-            thi.innerHTML = "";
-            thi.outerHTML = thi.outerHTML.replace(/button/g, "img");
-           
-        
-    }
+   
     
 </script>
 <html>
