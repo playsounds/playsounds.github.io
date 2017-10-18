@@ -120,7 +120,7 @@ function add(thi) {
 </head>
 <body>
     <div class="wrapper">
-                                           <button onclick="change(this), add()">OUR BUTTON</button>
+                                           <button id="bb" onclick="change(this), add()">OUR BUTTON</button>
         </div>
 </body>
 </html>
@@ -144,6 +144,9 @@ function add(thi) {
     top: 50%;
        transform: rotate(num);
    
+}
+ #bb:onclick {
+    transform: rotate(10);
 }
     
  .wrapper {
