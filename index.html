@@ -25,6 +25,8 @@ function add(thi) {
     var num = document.getElementById("mynum").value;
     if(num == '') num = 0;
     document.getElementById("mynum").value = parseInt(num ,10) + 1;
+    var n = num.toString();
+    var n = document.getElementById("mytxt").innerHTML = num;;
     if(num <= 100){
     
 
@@ -60,6 +62,7 @@ function add(thi) {
 <form action="" method="post">
    <div class="wrapper">
     <input type="text" id='mynum'>
+       <p id="mytxt">Hello World!</p>
        
 </div>
  <div class="wrapper">
