@@ -22,7 +22,7 @@
    }
 function add(thi) {
    
-    var num = document.getElementById("mynum").value;
+    var num = document.getElementById("mynum").innerHTML = num;
     if(num == '') num = 0;
     document.getElementById("mynum").value = parseInt(num ,10) + 1;
     if(num <= 100){
