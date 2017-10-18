@@ -22,9 +22,9 @@
    }
 function add(thi) {
    
-    var num = document.getElementById("mynum").innerHTML = num;
+    var num = document.getElementById("mynum").innerHTML = ""+num;
     if(num == '') num = 0;
-    document.getElementById("mynum").value = parseInt(num ,10) + 1;
+    document.getElementById("mynum").innerHTML = parseInt(num ,10) + 1;
     if(num <= 100){
     
 
@@ -60,7 +60,7 @@ function add(thi) {
 <form action="" method="post">
    <div class="wrapper">
     
-       <p id="mynum">0</p>
+       <p id="mynum"></p>
 </div>
  <div class="wrapper">
     Emoji Clicker 1.1!
