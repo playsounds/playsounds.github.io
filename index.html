@@ -1,5 +1,6 @@
 <script type="text/javascript">
     var num = 0;
+    var adds = 1;
     var url = "https://2.bp.blogspot.com/-trO-yFceGVc/WJo4xZrvTSI/AAAAAAAAUCs/Y_NIA0vtlpEFzHKw2Ft-jzdkW2WgBzLGgCLcB/s1600/ok-emoji.png";
       function setup(){
           change(url);
@@ -21,11 +22,16 @@
           
        change();
    }
+   function addsadd1(){
+   
+   adds = 2;
+   
+   }
 function add(thi) {
    
     //var num = document.getElementById("mynum").value;
     if(num == '') num = 0;
-    num += 1;
+    num += adds;
     var n = num.toString();
     var n = document.getElementById("mytxt").innerHTML = num;
     if(num <= 100){
@@ -134,6 +140,7 @@ function add(thi) {
     </script>
 </head>
 <body>
+    <button onclick="addsadd1"</button> <br>
     <div class="wrapper">
                                          <button id="bb" onclick="change(this), add()">Click me!</button>
         </div>
