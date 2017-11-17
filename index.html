@@ -28,6 +28,12 @@
        num -= 20;
        url = "https://postcron.com/en/blog/wp-content/uploads/2016/11/Smiling-Face-with-Sunglasses-Cool-Emoji-PNG.png"
       change();
+      var x = document.getElementById("1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
    }
    }
      function addsadd2(){
@@ -36,6 +42,12 @@
        num -= 400;
        url = "http://d2trtkcohkrm90.cloudfront.net/images/emoji/apple/ios-10/256/money-mouth-face.png"
       change();
+        var x = document.getElementById("2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
    }
    }
     function addsadd3(){
@@ -44,6 +56,26 @@
        num -= 1000;
              url = "https://media1.popsugar-assets.com/files/thumbor/pZdGi2ReRykR0eIu17vBixri33c/fit-in/550x550/filters:format_auto-!!-:strip_icc-!!-/2017/07/17/762/n/38761221/9daa229b596cf157bba3b2.54487514_edit_img_image_16516765_1500310351/i/New-Apple-Emoji-2017.jpg"
       change();
+        var x = document.getElementById("3");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+   }
+   }
+    function addsadd4(){
+   if(num >= 2000){
+   adds = 8;
+       num -= 2000;
+             url = "https://i.pinimg.com/736x/27/b6/73/27b6732ed47a6385bb95fcf223634fef--emoji-faces-smiley-faces.jpg"
+      change();
+        var x = document.getElementById("4");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
    }
    }
 function add(thi) {
@@ -142,7 +174,7 @@ function add(thi) {
        
 </div>
  <div class="wrapper">
-    Emoji Clicker 1.4!<br>
+    Emoji Clicker 1.5!<br>
     Update log: <br>
      upgardes!
     
@@ -160,9 +192,10 @@ function add(thi) {
     </script>
 </head>
 <body>
-    <button onclick="addsadd1()">Upgrade 1! cost: 20</button> <br>
-     <button onclick="addsadd2()">Upgrade 2! cost: 400</button> <br>
-     <button onclick="addsadd3()">Upgrade 3! cost: 1000</button> <br>
+    <button id= "1", onclick="addsadd1()">Upgrade 1! cost: 20</button> <br>
+     <button id= "2" onclick="addsadd2()">Upgrade 2! cost: 400</button> <br>
+     <button id= "3" onclick="addsadd3()">Upgrade 3! cost: 1000</button> <br>
+    <button id= "4" onclick="addsadd4()">Upgrade 4! cost: 2000</button> <br>
     <div class="wrapper">
                                          <button id="bb" onclick="change(this), add()">Click me!</button>
         </div>
